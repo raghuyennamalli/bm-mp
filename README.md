@@ -1,4 +1,4 @@
 # website
-Ragothaman M Yennamalli's lab website
+Biomolecular and Materials Modelling Platform (ONLINE) website
 
-This git is the place where I update my current research, team members, teaching, etc. 
+This git is the place where I update about the . 
