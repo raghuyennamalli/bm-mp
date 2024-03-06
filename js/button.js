@@ -11,8 +11,12 @@ function buttonClicked() {
   newItem.appendChild(newImage);
   
   var newText = document.createElement("p");
+  var newText1 = document.createElement("p");
   newText.textContent = "Prof. B. Jayaram,Emeritus Professor, Indian Institute of Technology(IIT) Delhi";
+  newText1.textContent = "Title: Genome to drug in silico: a country   path today; a highway tomorrow";
   newItem.appendChild(newText);
+  newText1.style.fontWeight = "bold";
+  newText.appendChild(newText1);
   
   var itemsContainer = document.getElementById("text");
   itemsContainer.appendChild(newItem);
@@ -41,8 +45,12 @@ function buttonClicked1() {
   newItem.appendChild(newImage);
   
   var newText = document.createElement("p");
+  var newText1 = document.createElement("p");
   newText.textContent = "Prof. K. Ganapathy Ayappa, Professor of Chemical Engineering, Indian Institute of Science (IISc) Bangalore";
+  newText1.textContent = "Title: breaching the bacterial cell surface";
   newItem.appendChild(newText);
+  newText1.style.fontWeight = "bold";
+  newText.appendChild(newText1);
 	
   var itemsContainer = document.getElementById("text1");
   itemsContainer.appendChild(newItem);
